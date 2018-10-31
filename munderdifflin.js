@@ -1,15 +1,15 @@
 var slideIndex = 1;
 showDivs(slideIndex);
 
-function plusDivs(n) {
-  showDivs(slideIndex += n);
+function plusDivs(numofpics) {
+  showDivs(slideIndex += numofpics);
 }
 
-function showDivs(n) {
+function showDivs(numofpics) {
 
   var show = document.getElementsByClassName("slideshow");
-  if (n > show.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = show.length}
+  if (numofpics > show.length) {slideIndex = 1}
+  if (numofpics < 1) {slideIndex = show.length}
   for (i = 0; i < show.length; i++) {
      show[i].style.display = "none";
   }

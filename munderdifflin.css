@@ -21,16 +21,19 @@ body {
   padding-left: 20px;
   text-decoration: none;
   font-family: sans-serif;
+  padding: 150px;
 }
+
 
 .navbar input[type=text] {
   float: right;
   border: none;
   margin-top: 40px;
-  margin-right: 50px;
+  margin-right: 65px;
   background-color: #1e4762;
   color: white;
 }
+
 
 .logo {
   width: 100px;
@@ -151,15 +154,27 @@ footer {
 }
 
 
-button {
+button, #Shop{
  justify-content: center;
  margin-left: 700px;
  background-color: white;
  color: #3c8dc3;
  border: 2px solid #3c8dc3;
+ position:relative;
 
-
+ animation-name: switch;
+ animation-duration: 3s;
+ animation-direction: reverse;
 }
+
+@-webkit-keyframes switch {
+  0% {background-color: white; left:0px; top:0px;}
+  25% {background-color: #d9d9d9; left:200px; top:0px;}
+  50% {background-color: #99ccff; left:200px; top:200px;}
+  75% {background-color: #b3b3ff; left:0px; top:200px;}
+  100% {background-color: #e6f2ff; left:0px; top:0px;}
+}
+
 
 button:hover {
   background-color: #3c8dc3;
