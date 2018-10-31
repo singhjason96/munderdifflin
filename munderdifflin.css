@@ -10,12 +10,15 @@ body {
   z-index: 1;
 }
 
+.navbar a:hover {
+  color:#e6e6e6;
+}
+
 
 .navbar a {
   color: white;
   font-size: 20px;
   padding-left: 20px;
-
   text-decoration: none;
   font-family: sans-serif;
 }
@@ -26,6 +29,7 @@ body {
   margin-top: 40px;
   margin-right: 50px;
   background-color: #1e4762;
+  color: white;
 }
 
 .logo {
