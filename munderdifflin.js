@@ -18,5 +18,5 @@ function showDivs(n) {
 
 
 document.getElementById('Shop').addEventListener('click', function() {
-  alert('This Part of The Site is Under Construction');
+  alert('We Sold Everything!!!!!');
 });

@@ -13,11 +13,19 @@ body {
 
 .navbar a {
   color: white;
-  font-size: 25px;
+  font-size: 20px;
   padding-left: 20px;
 
   text-decoration: none;
   font-family: sans-serif;
+}
+
+.navbar input[type=text] {
+  float: right;
+  border: none;
+  margin-top: 40px;
+  margin-right: 50px;
+  background-color: #1e4762;
 }
 
 .logo {
@@ -113,6 +121,7 @@ body {
 
 }
 
+
 h2 {
   text-align: center;
   font-weight: bold;
@@ -141,11 +150,16 @@ footer {
 button {
  justify-content: center;
  margin-left: 700px;
- background-color: #f2f2f2;
- color: black;
- border-color: #d9d9d9;
- border-radius: 4px;
+ background-color: white;
+ color: #3c8dc3;
+ border: 2px solid #3c8dc3;
 
+
+}
+
+button:hover {
+  background-color: #3c8dc3;
+  color: white;
 }
 
 .left, .right {
@@ -153,11 +167,10 @@ button {
   position: absolute;
   top: 50%;
   margin-top: -22px;
-  color: black;
+  color: #3c8dc3;
   transition: 0.5s ease;
-  border-color: #d9d9d9;
-  border-radius: 4px;
-  background-color: #f2f2f2;
+  border: 2px solid #3c8dc3;
+  background-color: white;
 
 }
 
