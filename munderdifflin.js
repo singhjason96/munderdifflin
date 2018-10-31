@@ -15,3 +15,8 @@ function showDivs(n) {
   }
   show[slideIndex-1].style.display = "block";
 }
+
+
+document.getElementById('Shop').addEventListener('click', function() {
+  alert('This Part of The Site is Under Construction');
+});
