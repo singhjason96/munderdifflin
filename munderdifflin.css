@@ -141,6 +141,11 @@ footer {
 button {
  justify-content: center;
  margin-left: 700px;
+ background-color: #f2f2f2;
+ color: black;
+ border-color: #d9d9d9;
+ border-radius: 4px;
+
 }
 
 .left, .right {
@@ -148,11 +153,22 @@ button {
   position: absolute;
   top: 50%;
   margin-top: -22px;
-  color: white;
+  color: black;
   transition: 0.5s ease;
+  border-color: #d9d9d9;
+  border-radius: 4px;
+  background-color: #f2f2f2;
 
 }
 
+.names  {
+  margin-top: 275px;
+  text-align: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 18px;
+}
+
 .left {
-  left: -300px;
+  left: -250px;
 }
