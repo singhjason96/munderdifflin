@@ -1,0 +1,170 @@
+body {
+  margin: 0;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #18394F;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+
+
+.navbar a {
+  color: white;
+  font-size: 25px;
+  padding-left: 20px;
+
+  text-decoration: none;
+  font-family: sans-serif;
+}
+
+.logo {
+  width: 100px;
+  overflow: hidden;
+  margin-top: ;
+}
+
+.Maingrid {
+  display: grid;
+  grid-template: repeat(1, 300px) / repeat(1, 940px);
+  padding-top:  120px;
+  justify-content:center;
+}
+
+/* .Maingrid div {
+  background-image: url("https://www.staples.com/sbd/cre/copyandprint/images/home_page/fall_2018/dg17011-bos_microsite_signs_940x300.jpg");
+  transition: transform 1s;
+}
+
+.Maingrid div:hover {
+  background-image: url("hammermillad.png");
+} */
+
+.free-shipping {
+  display: grid;
+  grid-template: repeat(1,150px) / repeat(1, 940px);
+  padding-top: 50px;
+  justify-content: center;
+  color: black;
+  font-weight: bold;
+
+}
+
+.free-shipping div {
+  background-image: url("freeshipping.png");
+}
+
+.lastgrid {
+  display: grid;
+  grid-template: repeat(1, 250px) / repeat(2, 435px);
+  grid-template-areas: "A B";
+  padding-top: 50px;
+  justify-content: center;
+  grid-gap: 70px;
+}
+
+.lastgrid div:nth-child(1) {
+  background-image: url("https://www.hammermill.com/wp-content/uploads/2018/07/HML_Prem_Color_Copy-product-bg.jpg");
+  grid-area: A;
+  background-color: purple;
+
+}
+
+.lastgrid div:nth-child(2) {
+  background-image:url("printerinkad.png");
+  grid-area: B;
+  /* background-color: blue; */
+  background-position: 60% 40%;
+
+}
+
+
+.slideshow {
+  display: none;
+}
+
+
+.Staff {
+  display: grid;
+  grid-template: repeat(1, 250px) / repeat(3, 250px);
+  grid-template-areas: "A B C";
+  padding-top: 10px;
+  justify-content: center;
+  grid-gap: 10px;
+}
+
+.Staff div:nth-child(1) {
+
+  grid-area: A;
+
+}
+
+.Staff div:nth-child(2) {
+
+    grid-area: B;
+
+}
+.Staff div:nth-child(3) {
+
+        grid-area: C;
+
+}
+
+h2 {
+  text-align: center;
+  font-weight: bold;
+  padding-top: 50px;
+  justify-content: center;
+}
+
+footer {
+  /* display: grid; */
+  /* grid-template: repeat(1, 50px) / repeat(3, 300px);
+  grid-column-gap: : 20px; */
+  justify-content: center;
+  background-color: #112b3c;
+  color: #e6e6e6;
+  /* margin: 0px;
+  text-align: center;
+  font-size: 18px;
+  clear: both; */
+  display: flex;
+  padding: 10px 5px;
+  margin-top: 120px;
+  font-size: 12px;
+}
+
+
+.sitepopup {
+  display: none;
+  position:fixed;
+  z-index: 2;
+  left: 0;
+  top: 0;
+  overflow: auto;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.4);
+}
+
+.sitedown {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
