@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  font-family: sans-serif;
 }
 
 .navbar {
@@ -96,6 +97,15 @@ body {
 
 }
 
+.lastgrid div:nth-child(1):hover {
+  transform: scale(1.1);
+}
+
+.lastgrid div:nth-child(2):hover {
+  transform: scale(1.1);
+}
+
+
 
 .slideshow {
   display: none;
@@ -128,6 +138,16 @@ body {
 
 }
 
+.Staff div:nth-child(1):hover {
+  transform: scale(1.1);
+}
+.Staff div:nth-child(2):hover {
+  transform: scale(1.1);
+}
+.Staff div:nth-child(3):hover {
+  transform: scale(1.1);
+}
+
 
 h2 {
   text-align: center;
@@ -154,6 +174,17 @@ footer {
 }
 
 
+
+
+
+.names  {
+  margin-top: 275px;
+  text-align: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 18px;
+}
+
 button, #Shop{
  justify-content: center;
  margin-left: 700px;
@@ -161,24 +192,6 @@ button, #Shop{
  color: #3c8dc3;
  border: 2px solid #3c8dc3;
  position:relative;
-
- animation-name: switch;
- animation-duration: 3s;
- animation-direction: reverse;
-}
-
-@-webkit-keyframes switch {
-  0% {background-color: white; left:0px; top:0px;}
-  25% {background-color: #d9d9d9; left:200px; top:0px;}
-  50% {background-color: #99ccff; left:200px; top:200px;}
-  75% {background-color: #b3b3ff; left:0px; top:200px;}
-  100% {background-color: #e6f2ff; left:0px; top:0px;}
-}
-
-
-button:hover {
-  background-color: #3c8dc3;
-  color: white;
 }
 
 .left, .right {
@@ -193,13 +206,6 @@ button:hover {
 
 }
 
-.names  {
-  margin-top: 275px;
-  text-align: center;
-  justify-content: center;
-  font-weight: bold;
-  font-size: 18px;
-}
 
 .left {
   left: -250px;
